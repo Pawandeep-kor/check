@@ -1,0 +1,100 @@
+/* Color scheme */
+:root {
+  --orange: #e49439;
+  --magenta: #6d1e43;
+  --main-text: #f2ecef;
+  --active-text: #722549;
+  --non-active-text: #404040;
+}
+
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--main-text);
+}
+
+.signup-window {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.signup-header {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+.signup-lang {
+  color: var(--magenta);
+  cursor: pointer;
+}
+
+.signup-content {
+  text-align: center;
+}
+
+.signup-title {
+  color: var(--orange);
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.signup-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  background-color: var(--orange);
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #c57a23;
+}
+
+.google-btn {
+  background-color: #db4437;
+  color: white;
+  padding: 12px;
+  border-radius: 5px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.google-btn:hover {
+  background-color: #c1351d;
+}
+
+.signup-login-link {
+  margin-top: 20px;
+}
+
+.signup-login-link span {
+  color: var(--magenta);
+  cursor: pointer;
+}
+
+.signup-login-link span:hover {
+  text-decoration: underline;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
